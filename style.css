@@ -1,0 +1,119 @@
+a{
+	font-size: 18px;
+	background-color: white;
+	color: orange;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #000;	
+}
+
+a:hover, a:active{
+	color: black;
+	text-shadow: 1px black;
+	background-color: green;
+}
+
+#sousmenu a{
+	font-size: 18px;
+	background-color: white;
+	color: #FFA939;
+	padding: 12px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #000;
+}
+
+#sousmenu a:hover{
+	background-color: #5E99DC;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 35px;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+	font-family: copper black; 
+}
+
+body{
+	background-color: #F7BE03; 
+}
+p{
+	color: white;
+	font-size: 20px;
+}
+
+#menu ul{
+	margin: 0;
+	padding: 0;
+}
+
+#menu li{
+	list-style: none;
+	float: left;
+	position: relative;
+}
+
+#menu ul li a{
+	width: 150px;
+	height: 70px;
+ 	padding: 15px 45px;
+  	text-align: left;
+  	text-decoration: none;
+  	display: inline-block;
+  	border: 1px solid #000;
+  	font-size: 17px;
+  	padding-bottom: 50px;
+  	font-style: italic;
+  	font-family: copper black;
+}
+
+#menu ul ul{
+	position: absolute;
+	top: 40px;
+	visibility: hidden;
+}
+
+#menu ul li:hover ul{
+	visibility: visible;
+}
+
+#menu ul li a:link, a:visited {
+  background-color: white;
+  color: orange;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#menu ul li a:hover, a:active {
+  background-color: #E29AB4;
+}
+
+#menu li:hover{
+	background-color: #999;
+}
+
+#menu ul li ul a:hover{
+	color: #FFF;
+	background-color: #EBEEB7;
+}
+
+a:hover{
+	color: #FFF;
+	background-color: #EBEEB7;
+}
+
+br{
+	display: block; margin-bottom: 200px;
+}
