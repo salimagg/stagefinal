@@ -53,6 +53,23 @@ a:hover, a:active{
 	background-color: #FFFF64;
 }
 
+#paiement a{
+	height: 50px;
+	font-size: 15px;
+	background-color: white;
+	color: #B562E0;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #000;
+}
+
+#paiement a:hover, a:active {
+	background-color: #FFFF64;
+}
+
+
 h1{
 	text-align: center;
 	color: #FFF;
